@@ -1,9 +1,5 @@
-/**
- * 
- */
-/**
- * 
- */
 module EsercitazioneVeicoli {
-	requires java.desktop;
+	exports veicoli.entity;
+	exports veicoli.test;
+	exports veicoli.entity.motocicletta;
 }

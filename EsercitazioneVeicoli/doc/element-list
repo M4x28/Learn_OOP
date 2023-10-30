@@ -1,0 +1,4 @@
+module:EsercitazioneVeicoli
+veicoli.entity
+veicoli.entity.motocicletta
+veicoli.test

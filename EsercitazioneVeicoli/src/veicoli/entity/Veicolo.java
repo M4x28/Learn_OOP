@@ -3,7 +3,6 @@
  */
 package veicoli.entity;
 
-import java.awt.Toolkit;
 import java.time.Year;
 
 /**
@@ -50,7 +49,7 @@ public abstract class Veicolo {
 	 * Metodo Base suona clacson
 	 */
 	public void suonaClacson() {
-		Toolkit.getDefaultToolkit().beep();
+		System.out.println("Clacson Veicolo");
 	}
 
 }

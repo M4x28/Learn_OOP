@@ -3,8 +3,6 @@
  */
 package veicoli.entity.motocicletta;
 
-import java.awt.Toolkit;
-
 import veicoli.entity.Veicolo;
 
 /**
@@ -48,7 +46,7 @@ public class Motocicletta extends Veicolo {
 	 */
 	@Override
 	public void suonaClacson() {
-		Toolkit.getDefaultToolkit().beep();
+		System.out.println("Clacson motocicletta");
 	}
 
 	/**

@@ -3,8 +3,6 @@
  */
 package veicoli.entity;
 
-import java.awt.Toolkit;
-
 /**
  * Classe Automobile eredita attributi della classe astratta Veicolo
  * 
@@ -89,7 +87,7 @@ public class Automobile extends Veicolo {
 	 */
 	@Override
 	public void suonaClacson() {
-		Toolkit.getDefaultToolkit().beep();
+		System.out.println("Clacson automobile");
 	}
 
 }
