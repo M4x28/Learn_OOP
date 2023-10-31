@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module Negozio {
+	requires Prodotto;
+}

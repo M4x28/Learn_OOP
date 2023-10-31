@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+package negozio.entity;
