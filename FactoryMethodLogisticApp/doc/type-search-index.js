@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"entity","l":"AbstractCreatorLogistics"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"entity","l":"ConcreteCreatorRoadLogistics"},{"p":"entity","l":"ConcreteCreatorSeaLogistics"},{"p":"entity","l":"Ship"},{"p":"Test","l":"TestLogistics"},{"p":"entity","l":"Transport"},{"p":"entity","l":"Truck"}];updateSearchResults();
