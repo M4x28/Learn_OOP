@@ -7,8 +7,8 @@ import java.util.ArrayList;
 
 import entity.Cilindro;
 import entity.Cubo;
+import entity.FormaBidimensionale;
 import entity.FormaGeometrica;
-import entity.FormaGeometricaBidimensionale;
 import entity.FormaGeometricaTridimensionale;
 import entity.Quadrato;
 import entity.Triangolo;
@@ -35,8 +35,8 @@ public class TestForma {
 
 		for (FormaGeometrica formaGeometrica : forme) {
 			System.out.println("Tipo: " + formaGeometrica.getClass().getName());
-			if (formaGeometrica instanceof FormaGeometricaBidimensionale) {
-				System.out.println("Area: " + ((FormaGeometricaBidimensionale) formaGeometrica).calcolaArea());
+			if (formaGeometrica instanceof FormaBidimensionale) {
+				System.out.println("Area: " + ((FormaBidimensionale) formaGeometrica).calcolaArea());
 			} else {
 				System.out.println("Area: " + ((FormaGeometricaTridimensionale) formaGeometrica).calcolaArea());
 				System.out.println("Valume: " + ((FormaGeometricaTridimensionale) formaGeometrica).calcolaVolume());
